@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lanzamiento de Dados</title>
+  <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+  <link rel="icon" type="image/png" href="./imagenes/favicon.png" />
+</head>
+<body>
+  <div class="uwu">
+    <h1>Lanzamiento de Dados</h1>
+    <div class="download-button">
+      <button id="descargarBtn">Descargar Resultados</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="left-section">
+      <label for="numLanzamientos">Número de Lanzamientos:</label>
+      <input type="number" id="numLanzamientos" min="1"></br>
+      <div class="awa">
+
+        <button id="lanzamientoPseudoBtn">Lanzamiento Pseudoaleatorio</button>
+        <button id="lanzamientoRandomBtn">Lanzamiento Aleatorio</button>
+      </div>
+      <button id="limpiarBtn">Limpiar</button>
+      <table id="lanzamientosTable">
+        <thead>
+          <tr>
+            <th>Lanzamiento</th>
+            <th>Resultado</th>
+            <th>Imagen</th>
+          </tr>
+        </thead>
+        <tbody id="lanzamientosList"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
