@@ -27,4 +27,8 @@ Este proyecto se encuentra bajo la Licencia MIT. Puedes consultar el [archivo LI
 
 ---
 
-[![Visita la aplicación](https://img.shields.io/badge/Visita%20mi%20p%C3%A1gina%20web-%20-green)](https://dadoueb.netlify.app/)
+<p align="center">
+  <a href="https://dadoueb.netlify.app/">
+    <img src="https://img.shields.io/badge/Visita%20mi%20p%C3%A1gina%20web-%20-green?style=for-the-badge" alt="Visita la aplicación web">
+  </a>
+</p>
